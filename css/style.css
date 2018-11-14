@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .navi {
-    background-color: rgb(56, 59, 63);
+    background-color: #2c3e50;
     overflow: hidden;
 }
 
@@ -27,12 +27,18 @@
 
 .myname{
     float:left;
-    background-color: rgba(107, 223, 84, 0.993);
-    color: #000000;
+    background-color: #2c3e50;
+    color: white;
     text-align: center;
-    padding: 2px 20px;
+    padding: 1px 20px;
     text-decoration: none;
     font-size: 18px;
     
-
 }
+
+body{
+    font-family: 'Allerta Stencil';font-size: 22px;
+    background-color: #18bc9c!important;
+    position: relative;
+}
+
