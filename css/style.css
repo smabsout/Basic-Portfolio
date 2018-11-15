@@ -49,11 +49,27 @@ body{
     background-color: #18bc9c!important;
     position: relative;
     margin: 0 auto;
+
 }
 
+.container{
+
+margin: 0 auto;
+width: 1000px;
+background-color:transparent;
+border-radius: 12px;
+margin: 10% 18%;
+
+
+}
 .title{
     color:#2c3e50;
     font-size: 300%;
+    position: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+    
 }
 
 .contact{
