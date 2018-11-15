@@ -41,3 +41,51 @@ body{
     margin: 0 auto;
 }
 
+.contact{
+
+    margin: 100px 16px;
+
+}
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container{
+
+    background: transparent;
+    max-width: 550px;
+    margin: auto;
+
+}
+
+form{
+
+    padding-bottom: 16px;
+    display:block;
+    width:100%;
+
+}
+
+.form-name, .form-lname, .form-email, .form-message{
+position: relative;    
+}
+
+form textarea{
+
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+    transition: 0.2s;
+    margin-top: 16px;
+    height: 150px;
+    background-color: white;
+    padding: 10px 16px, 10px, 30px;
+}
+
+
+  
+  
+
