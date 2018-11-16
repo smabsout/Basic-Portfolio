@@ -63,7 +63,7 @@ margin: 0 auto;
 width: 1000px;
 background-color:transparent;
 border-radius: 12px;
-margin: 10% 18%;
+margin: 0 auto;
 
 
 }
@@ -108,7 +108,8 @@ form{
 }
 
 .form-name, .form-lname, .form-email, .form-message{
-position: relative;    
+position: relative;  
+border-radius: 12px;  
 }
 
 form textarea{
