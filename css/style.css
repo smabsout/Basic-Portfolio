@@ -9,6 +9,7 @@ hr{
     background-color: white;
     overflow: hidden;
     margin: 0 auto;
+    
 }
 
  
@@ -37,6 +38,7 @@ hr{
     padding: 30px 40px;
     text-decoration: none;
     font-size: 17px;
+    
 }
 
 .navi a:hover {
@@ -45,16 +47,17 @@ hr{
 
 
 .myname {
-    float: left;
-    background-color: white;
+    /* float: left; */
+    width: 250px;
+    height: 88px;
     color: white;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     padding: 1px 20px;
     text-decoration: none;
     font-size: 18px;
-    position: center;
-    margin-top:13px;
+    position: fixed;
+    /* margin-top: 13px; */
 }
 
 body{
@@ -69,26 +72,25 @@ body{
 
 }
 
-.container{
-
-margin-top: 20px;
-margin-bottom: 25px;
-width: 1000px;
-background-color:#fff;
-border-radius: 12px;
-margin: 0 auto;
-padding: 30px;
-border: 1px solid #ddd;
-
-
+.container {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 15px 250px;
+    padding: 30px;
+    border: 1px solid #ddd;
 }
+
+
 .title{
     color:#4aaaa5;
-    font-size: 300%;
+    font-size: 200%;
     position: left;
     padding: 10px 20px;
     margin: 20px;
-    text-align: center;
+    text-align: left;
     
     
 }
@@ -125,6 +127,7 @@ form{
 .form-name, .form-lname, .form-email, .form-message{
 position: relative;  
 border-radius: 12px;  
+
 }
 
 form textarea{
@@ -138,6 +141,7 @@ form textarea{
     height: 150px;
     background-color: white;
     padding: 10px 16px, 10px, 30px;
+    border: 1px solid #ddd
 }
 
 
