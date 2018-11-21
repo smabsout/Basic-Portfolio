@@ -45,6 +45,10 @@ hr{
     color:#18bc9c;
 }
 
+.navclass{
+    background-color:#fff;
+}
+
 
 .myname {
     /* float: left; */
@@ -57,7 +61,7 @@ hr{
     text-decoration: none;
     font-size: 18px;
     position: fixed;
-    /* margin-top: 13px; */
+    margin-left: 248px;
 }
 
 body{
@@ -70,6 +74,10 @@ body{
     font-size: 18px;
     line-height: 28px;
 
+}
+
+.p1 {
+    padding: 13px;
 }
 
 .container {
@@ -144,6 +152,10 @@ form textarea{
     border: 1px solid #ddd
 }
 
+.pfp {
+    float: left;
+    margin-right: 30px;
+}
 
 
 
